@@ -1,0 +1,404 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Open Sans, arial, tahoma, verdana, sans-serif;
+}
+
+#Header {
+  background-color: #f2f2f2;
+  height: 28px;
+  width: 100%;
+}
+
+.sub-header .head {
+  border: 1px solid rgb(231, 75, 36);
+  font-size: 13px;
+  font-weight: 600;
+  background-color: rgb(231, 75, 36);
+  color: #fff;
+  margin: 10px;
+  padding: 0 3px;
+}
+
+.sub-header :nth-child(2) {
+  font-size: 11px;
+  font-weight: 600;
+  color: rgb(51, 51, 51);
+  margin: -12px;
+}
+
+.sub-header .rb a {
+  text-decoration: none;
+  color: #828282;
+  font-size: 11px;
+  padding: 0 2px;
+  position: relative;
+  left: 99px;
+  border-right: 1px solid #828282;
+}
+
+.sub-header .rl a {
+  margin: 0px 97px;
+  text-decoration: none;
+  font-size: 12px;
+  color: rgb(51, 51, 51);
+}
+
+/*-------------Header-2 starts here-------*/
+#headerblock-2 {
+  height: 50px;
+  width: 100%;
+  background-color: #fff;
+}
+
+span .icon {
+  font-weight: 300;
+  margin: 0 60px;
+  padding: 13px;
+  position: relative;
+  right: 22px;
+}
+
+.color {
+  color: #20336b;
+  margin: 0px -80px;
+  font-size: 25px;
+  font-family: fantasy;
+}
+
+.color::after {
+  content: "tm";
+  color: #00b9f5;
+}
+
+.input {
+  margin: 0px 98px;
+  padding: 6px 35px;
+  width: 340px;
+  height: 22px;
+  border: none;
+  border-bottom: 2px solid #ebebeb;
+  border-radius: 2px;
+}
+
+.input:hover {
+  background-color: #ebebeb;
+}
+
+::placeholder {
+  font-size: 17px;
+}
+
+input:focus {
+  outline: none;
+}
+
+#search {
+  color: #828282;
+  position: relative;
+  right: 503px;
+  top: 1px;
+  font-size: 18px;
+}
+
+.img2,
+.img3 {
+  height: 19px;
+  width: 23px;
+  position: relative;
+  top: 4px;
+}
+
+#wal {
+  font-size: 16px;
+  position: relative;
+  top: 1px;
+}
+
+.line1,
+.line2,
+.line3 {
+  font-size: 11px;
+  margin: 8px;
+}
+
+.fa-smile {
+  font-size: 17px;
+  position: relative;
+  top: 2px;
+}
+
+.line4 {
+  font-size: 11px;
+  background: #fff;
+  padding: 2px 3px;
+  right: 10px;
+  position: relative;
+}
+
+/*-------------Header-2 ends here-------*/
+
+/*----------Header-3 starts here-------*/
+
+#header3 {
+  background-color: #102b72;
+  height: 150px;
+  width: 100%;
+}
+
+.image-row1 {
+  position: relative;
+  top: 34px;
+  right: 8px;
+  font-size: 11px;
+  color: #fff;
+  opacity: 0.5;
+}
+
+.image-row2 {
+  position: relative;
+  top: 34px;
+  right: 25px;
+  font-size: 11px;
+  color: #fff;
+  opacity: 0.5;
+}
+
+.image-row3 {
+  position: relative;
+  top: 34px;
+  right: 30px;
+  font-size: 11px;
+  color: #fff;
+  opacity: 0.5;
+}
+
+.image-row4 {
+  position: relative;
+  top: 34px;
+  right: 32px;
+  font-size: 13px;
+  color: #fff;
+  opacity: 0.5;
+}
+
+.image-row5 {
+  position: relative;
+  top: 34px;
+  right: 32px;
+  font-size: 13px;
+  color: #fff;
+  opacity: 0.5;
+}
+
+.image-row6 {
+  position: relative;
+  top: 34px;
+  right: 44px;
+  font-size: 13px;
+  color: #fff;
+  opacity: 0.5;
+}
+
+.image-row7 {
+  position: relative;
+  top: 34px;
+  right: 43px;
+  color: #fff;
+  opacity: 0.5;
+  font-size: 13px;
+}
+
+.image-row8 {
+  position: relative;
+  top: 34px;
+  right: 41px;
+  font-size: 13px;
+  color: #fff;
+  opacity: 0.5;
+}
+
+.image-row9 {
+  position: relative;
+  top: 34px;
+  right: 43px;
+  font-size: 13px;
+  color: #fff;
+  opacity: 0.5;
+}
+
+.image-row10 {
+  position: relative;
+  top: 34px;
+  right: 54px;
+  color: #fff;
+  opacity: 0.5;
+  font-size: 12px;
+}
+
+.image-row11 {
+  position: relative;
+  top: 34px;
+  right: 60px;
+  color: #fff;
+  opacity: 0.5;
+  font-size: 12px;
+}
+
+.ico1 {
+  height: 21px;
+  width: 26px;
+  position: relative;
+  top: 12px;
+  left: 54px;
+}
+.ico2 {
+  height: 21px;
+  width: 26px;
+  position: relative;
+  top: 11px;
+  left: 12px;
+}
+
+.ico3 {
+  height: 21px;
+  width: 26px;
+  position: relative;
+  top: 11px;
+  right: -1px;
+}
+
+.ico4 {
+  height: 21px;
+  width: 26px;
+  position: relative;
+  top: 10px;
+}
+
+.ico5 {
+  height: 21px;
+  width: 26px;
+  position: relative;
+  top: 12px;
+}
+
+.ico6 {
+  height: 21px;
+  width: 26px;
+  position: relative;
+  top: 10px;
+  left: 18px;
+}
+
+.ico7 {
+  height: 21px;
+  width: 26px;
+  position: relative;
+  top: 11px;
+}
+
+.ico8 {
+  height: 21px;
+  width: 26px;
+  position: relative;
+  top: 11px;
+}
+
+.ico9 {
+  height: 21px;
+  width: 26px;
+  position: relative;
+  top: 11px;
+}
+
+.ico10 {
+  height: 21px;
+  width: 26px;
+  position: relative;
+  top: 11px;
+}
+
+.ico11 {
+  height: 21px;
+  width: 26px;
+  position: relative;
+  top: 12px;
+}
+
+.image-row1:hover,
+.image-row2:hover,
+.image-row3:hover,
+.image-row4:hover,
+.image-row5:hover,
+.image-row6:hover,
+.image-row7:hover,
+.image-row8:hover,
+.image-row9:hover,
+.image-row10:hover,
+.image-row11:hover,
+.icon4:hover {
+  opacity: 1;
+}
+
+.fa-ellipsis-h {
+  color: #fff;
+  position: relative;
+  top: 15px;
+  right: 36px;
+}
+
+.icon4 {
+  color: #fff;
+  opacity: 0.5;
+  text-transform: capitalize;
+  font-size: 12px;
+  position: relative;
+  top: 34px;
+  right: 63px;
+}
+
+.tri {
+  width: 0;
+  left: 442px;
+  top: 30px;
+  height: 0;
+  border-right: 11px solid transparent;
+  border-left: 11px solid transparent;
+  border-bottom: 11px solid #fff;
+  position: relative;
+  margin: auto;
+}
+
+.drop {
+  background-color: #fff;
+  height: 500px;
+  width: 278px;
+  border-radius: 5px;
+  position: relative;
+  top: 29px;
+  left: 936px;
+}
+
+.dropdown {
+  display: block;
+  position: relative;
+  left: 87px;
+  font-size: 14px;
+  color: #111;
+  padding: 14px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.drop a span {
+  position: relative;
+  left: 0px;
+  border-bottom: 1px solid #ccc;
+}
+
+/*----------Header-3 ends here-------*/ ;
